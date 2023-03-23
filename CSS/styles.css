@@ -1,0 +1,213 @@
+body{ /* checked */
+   
+     margin-top: 0px; /**OK-- express the distance between body and top*/
+     margin-left: 0px; /*Ok */
+     margin-right: 0px; /**OK**/
+     margin-bottom: 0px; /**OK**/
+     padding:0;
+     margin:0;
+     /*margin:0px  διαφορετικα ,ειναι το ιδιο με αυτα επανω */
+     text-align: center; /*= η στοιχιση όλου του body θα ειναι στο κεντρο εκτος απο αυτα π εχουν*/
+     /*ήδη καποιο width .Εκεινα πρεπει να τα ορισω με το margin*/
+     
+     font-family: 'Merriweather', serif;
+     color:#40514E; /* OK  ALLAZO XROMA STIN GRAMATOSIRA*/
+     background-color:#EAF6F6;
+     
+}
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+a{    /*checked*/
+
+    color:#11999E; /*ok*/
+    margin:10px 20px; /*αποστασεις */
+    font-family:'Montserrat',sans-serif ;
+    text-decoration:none; /*by default αυτη η ρυθμιση ειναι underline γιατι προκειται για <a.. > */
+}
+
+a:hover{ /*checked*/
+    color:#b93ea5;
+}
+
+.btn { /*checked */
+    background: #34d9d9;
+    background-image: -webkit-linear-gradient(top, #34d9d9, #2d81b5);
+    background-image: -moz-linear-gradient(top, #34d9d9, #2d81b5);
+    background-image: -ms-linear-gradient(top, #34d9d9, #2d81b5);
+    background-image: -o-linear-gradient(top, #34d9d9, #2d81b5);
+    background-image: linear-gradient(to bottom, #34d9d9, #2d81b5);
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family:'Montserrat',sans-serif ;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+      
+  .btn:hover {  /*checked */
+    background: #e4d4e6;
+    text-decoration: none;
+  }
+    
+    
+h1{/* checked */
+    color: #66BFBF; /*οριζω χρωμα για τo header 1*/
+    font-size: 5.625rem; /* Font-size= το μεγεθος των γραμματων .ηθελα 90px αρα για να βρω το δυναμικο ποσοστο κανω= 90/16=.. */
+    width: 1000px; /*εχει συγκεκριμενο πλατος αρα πρεπει να ορισω και την στοιχιση του*/
+    margin:0 auto 0 auto ; /*του βαζω κεντρικη στοιχιση με αυτες τις αποστασεις απο Π=αποσταση 50px-Α-Κ-Δ*/
+    font-family: 'Sacramento', cursive;
+    padding-top: 50px;
+}
+#h2special{
+    margin-top:450px;
+}
+h2{ /* checked */
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem;
+    font-weight: normal; /*κανει την γραμματοσειρα να μην ειναι bold*/
+    padding-bottom: 10px; /*ΓΙΑ ΝΑ ΑΠΟΚΤΗΣΩ ΑΠΟΣΤΑΣΗ ΑΠΟ ΚΑΤΩΨ*/
+    margin-bottom: 10px; /*αποσταση απο κατω*/
+
+}
+
+h3{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container{ /*επεξεργασια της κλασης top-container του tag div*/
+ background-color: #EAF6F6;
+ background-image: url("C:/Users/Ραφαελα/Web Developement/CSS_MySite/images/volos.png"); /*insert photo*/
+ background-repeat: no-repeat; /* prevents the image from repeating */
+ background-size:100% 90%;
+ height: 100vh;
+ padding:0;
+ margin-top: 0px;
+ 
+ margin:auto;
+}
+
+.middle-container{ /* checked */
+    /*επεξεργασια της κλασης middle-container του tag div*/
+margin:100px 0; /*αποσταση 100px απο πανω και κατω και 0 απο πλαγια(αριστερα και δεξια)*/
+margin-top: 0px; /*αποσταση απο το πανω container*/
+margin-bottom:40px;
+
+
+}
+.form-details{
+    
+    margin:auto 250px auto 250px;
+    width: 470px;
+    width: 50%; /* Set the width of the div */
+    margin: 0 auto; /* Center the div horizontally */
+
+}
+.form-container{
+    margin:100px 0; /*αποσταση 100px απο πανω και κατω και 0 απο πλαγια(αριστερα και δεξια)*/
+margin-top: 0px; /*αποσταση απο το πανω container*/
+margin-bottom:300px;
+}
+
+
+.bottom-container{ /*checked*/
+    /*επεξεργασια της κλασης bottom-container του tag div*/
+    background-color:#66BFBF; /**ok**/
+    padding-top: 50px; /*Εσωτερικες αποστασεις-απο πανω  ok */
+    border-bottom-width: 100px; 
+    padding-bottom: 20px; /*ok*/
+    height: auto;
+}
+
+.contact-me{ /* ????? */
+    /*margin-top: 50px; */
+   /* margin-bottom: 50px; */
+    padding-bottom:20px;
+    padding-top:20px;
+    height: 270px;
+
+}
+
+.contact-message{ /*checked*/
+    width: 40%; /*ευρος*/
+    margin:40px auto 60px auto; /*40px apo top auto gia right,left kai 60px apo bottom*/
+}
+.connection:hover{
+    color:#b93ea5;
+    text-decoration: none;
+
+}
+
+
+img.bottom-cloud{ /*checked*/
+    position: absolute; /*δινω στην εικονα την δυνατοτητα να μετακινηθει-χωρις να δεσμευω αρχικη θεση*/
+    left:450px; /*250px αποσταση απο τα αριστερα*/
+    top:500px;
+}
+
+p{ /*checked*/
+    /*κοινη μορφοποιηση ΟΛΩΝ ΤΩΝ ΠΑΡΑΓΡΑΦΩΝ  */
+    display: inline; /*Αυτο σημαινει οτι αφου κλεισει η παραγραφος,μπορει στην ιδια γραμμη να υπαρχει διπλα κ κατι αλλο*/
+    line-height:2; /*αποστασεις μεταξυ γραμμων*/
+    text-align: center;
+    
+}
+.p-class{
+    line-height:2; /*αποστασεις μεταξυ γραμμων*/
+    text-align:left;
+}
+.skill-row{ /*επεξεργασια του div*/
+    
+    width: 50%; /*aυτο το div , θα πιανει μονο το 50% της συνολικης σελιδας*/
+    margin:100px auto 50px auto ; /*και θα στοιχιζεται κεντρικα το div με αποστασεις 100px απο ΠΑΝΩ+ 50px ΑΠΟ ΚΑΤΩ*/
+    text-align: left;
+    line-height:2; /*για να μην ειναι τοσο κολλημενες οι γραμμες μεταξυ τους*/
+    
+}
+.skill-img{ /*ΑΛΛΑΖΩ ΙΔΙΟΤΗΤΕΣ ΣΤΗΝ ΦΩΤΟΓΡΑΦΙΑ */
+    width:150px; /*οριζω το μεγεθος της εικονας*/
+    float: left; /*σημαινει οτι η εικονα θα εισαχθει LEFT+διπλα μπορω να εισαγω κ αλλα πραγματα*/
+    margin-right: 30px; /*δεξια της εικονας ,οτιδηποτε υπαρχει θα απεχει 30px  */
+   
+}
+.chill-img{ /*ΑΛΛΑΖΩ ΙΔΙΟΤΗΤΕΣ ΣΤΗΝ ΦΩΤΟΓΡΑΦΙΑ */
+    width:150px; /*οριζω το μεγεθος της εικονας*/
+    float: right; /*σημαινει οτι η εικονα θα εισαχθει RIGHT+ διπλα μπορω να εισαγω κι αλλα πραγματα*/
+    margin-left: 30px; /*ΟΤΙΔΗΠΟΤΕ να απεχει απο την εικονα 30px απο τα αριστερα*/
+}
+hr{ /*checked*/
+    color:#ffffff;
+    border-style: dotted solid;
+    border-bottom: 0; /*gia na eksafanistei i kato grami */
+    border-top-width: 10px; /*edose to paxos stis grames*/
+    width:6%; /*to poso fardi tha nai*/
+    margin:50px auto; /*100px απο πανω και κατω και auto απο αριστερα και δεξια*/
+    
+    
+}
+
+
+.footer-link{
+    border-left: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+     
+       
+}
+.copyright{ /*checked*/
+color:#EAF6F6;
+text-align: center;
+display: block; /*gia n min eisaxthei kati allo stin idia grammi*/
+font-size: 0.75rem;
+padding:20px 0; /*20px apo pano kai kato 0 apo aristera kai deksia*/
+}
+
+
+
