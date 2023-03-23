@@ -84,7 +84,7 @@ h3{
 
 .top-container{ /*επεξεργασια της κλασης top-container του tag div*/
  background-color: #EAF6F6;
- background-image: url('images/volos.png'); /*insert photo*/
+ background-image: url("images/volos.png"); /*insert photo*/
  background-repeat: no-repeat; /* prevents the image from repeating */
  background-size:100% 90%;
  height: 100vh;
